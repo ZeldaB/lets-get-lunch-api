@@ -1,0 +1,7 @@
+{
+    "port": 8080,
+    "bodyLimit": "100kb",
+    "db": "mongodb://localhost:27017/lgl-api",
+    "secret": "sup3rs3c123tk3y",
+    "zomato": "8253334b949a5808448c0ff998954321"
+    }

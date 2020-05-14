@@ -20,6 +20,7 @@
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.4.2",
     "body-parser": "^1.15.2",
+    "core-util-is": "^1.0.2",
     "cors": "^2.7.1",
     "express": "^4.14.0",
     "gulp": "^3.9.1",
