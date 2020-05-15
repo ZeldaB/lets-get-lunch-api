@@ -17,6 +17,13 @@ if (process.env.NODE_ENV === 'test') {
 let app = express();
 
 app.use(cors());
+
+app.use(function(request, response, next) {
+  response.header("Access-Control-Allow-Origin", "*");
+  response.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 app.use(bodyParser.json({ limit: '100kb' }));
 app.use(bodyParser.urlencoded({ extended: true }));
 
